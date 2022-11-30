@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for chr(i) in range(97, 123):
-        i -= 32
-    print(f"{chr(i)}")
+def uppercase(stdr):
+    for ord(stdr[:]) in range(97, 123):
+        ord(stdr[:]) -= 32
+        print("{}\n".format(stdr[:]))
 
-
-uppercase('the')
-
+uppercase("odai")
