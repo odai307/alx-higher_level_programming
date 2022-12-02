@@ -7,7 +7,6 @@ if __name__ == "__main__":
     count = len(sys.argv)
     operators = ["+", "-", "/", "*"]
     argv = sys.argv[1:]
-    
     if count != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
@@ -25,4 +24,3 @@ if __name__ == "__main__":
             print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
         elif sys.argv[2] is "*":
             print("{:d} / {:d} = {:d}".format(a, b, mul(a, b)))
-
