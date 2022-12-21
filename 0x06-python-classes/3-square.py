@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#2-square.py
+# 2-square.py
 """Creates a Class"""
 
 
