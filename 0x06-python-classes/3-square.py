@@ -2,6 +2,7 @@
 #2-square.py
 """Creates a Class"""
 
+
 class Square:
     """A class that represents a square"""
 
