@@ -50,5 +50,9 @@ class Rectangle:
     def __str__(self):
         """Prints a diagram of the triangle with the '#' character"""
         if self.__width == 0 or self.__height == 0:
-            return ("")
+            print("")
         return "\n".join("#" * self.__width for i in range(self.__height))
+
+    def __repr__(self):
+        """String representation of the triangle"""
+        return f"Rectangle({self.__width}, {self.__height})"
