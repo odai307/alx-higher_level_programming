@@ -20,6 +20,7 @@ def text_indentation(text):
     signs = ['.', '?', ':']
 
     for char in text:
+        print(char, end='')
         if char in signs:
             print()
             print()

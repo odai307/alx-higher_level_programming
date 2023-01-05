@@ -1,0 +1,32 @@
+Importing module
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Passing a string as an argument
+>>> text_indentation("Hello Gabriel, How are you? You good? I have a special offer for you: Really? Yaa. What is the offer? Wait for it. Okay!")
+Hello Gabriel, How are you?
+
+ You good?
+
+ I have a special offer for you:
+
+ Really?
+
+ Yaa.
+
+ What is the offer?
+
+ Wait for it.
+
+ Okay!
+
+Passing a non string as an argument
+	>>> text_indentation(4)
+	Traceback (most recent call last):
+		...
+	TypeError: text must be a string
+
+Passing an empty argument
+	>>> text_indentation()
+	Traceback (most recent call last):
+		...
+	TypeError: text_indentation() missing 1 required positional argument: 'text'
