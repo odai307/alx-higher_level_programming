@@ -27,4 +27,9 @@ passing no arguments
 	Traceback (most recent call last):
 		...
 	TypeError: a must be an integer
-	
+
+Passing an infinity number
+	>>> add_integer(float('inf'), 3)
+	Traceback (most recent call last):
+		...
+	OverflowError: cannot convert float infinity to integer	
