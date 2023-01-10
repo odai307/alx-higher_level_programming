@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This module takes a function and returns True if the object is an instance of a class otherwise returns False"""
+"""This module takes a function and returns True if the object
+    is an instance of a class otherwise returns False"""
 
 
 def is_same_class(obj, a_class):
