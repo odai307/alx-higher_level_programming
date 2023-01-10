@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Inherits from Basee Geometry"""
 BaseGeometry = __import__('7-base_geometry.py').BaseGeometry
+"""Imports base geometry module"""
 
 
 class Rectangle(BaseGeometry):
