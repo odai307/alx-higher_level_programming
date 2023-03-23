@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""script which prints all states from the database htbn_oe_0_usa"""
 
 import MySQLdb
 from sys import argv
+"""Script to list all states in the database ordered by their id"""
 
 mysql_user = argv[1]
 mysql_password = argv[2]
